@@ -17,11 +17,11 @@ def serve_dashboard():
     return FileResponse("index.html")
 
 async def fetch_data():
-    device_info_url = "https://frosty-brook-8666.tines.com/api/v1/notes/54207"
-    exfiltrated_file_url = "https://frosty-brook-8666.tines.com/api/v1/notes/54208"
-    others_url = "https://frosty-brook-8666.tines.com/api/v1/notes/54211"
+    device_info_url = "https://<TINES_TENANT>.tines.com/api/v1/notes/54207"
+    exfiltrated_file_url = "https://<TINES_TENANT>.tines.com/api/v1/notes/54208"
+    others_url = "https://<TINES_TENANT>.tines.com/api/v1/notes/54211"
     
-    headers = {"x-user-token": "DuEEDWvDoUjnQUJcahPw"}
+    headers = {"x-user-token": "<API_TOKEN>"}
     
     while True:
         device_info_response = requests.get(device_info_url, headers=headers)
