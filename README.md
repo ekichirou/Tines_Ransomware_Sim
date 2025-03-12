@@ -49,4 +49,4 @@ This is a passion project that is a part of the [YDWWT](https://www.tines.com/yo
   - Under `Encrypter.ps1`, update with the Encrypter resource.
   - Under `Decrypter.ps1`, update with the Decrypter resource.
   - In `Clear - Update`, use the Encrypter resource.</br>
-(*Run the **Get Resource** HTTP request to retrieve resource IDs*).
+  
