@@ -1,7 +1,7 @@
 # Tines Ransomware Simulation
 This is a passion project that is a part of the [YDWWT](https://www.tines.com/you-did-what-with-tines/spring-2025/) event.
 ### Credits
-> I would like to thank [1Doomdie1](https://github.com/1Doomdie1) for their support with the Tines integration.
+> I would like to thank [1Doomdie1](https://github.com/1Doomdie1) for his support with the Tines integration.
 > 
 ### What is the purpose of this project?
 > The goal of this project is to simulate ransomware behavior in a controlled environment to evaluate how security platforms and teams detect, respond to, and mitigate potential threats. By emulating real-world attack patterns, this simulation helps security professionals:  
